@@ -129,7 +129,7 @@ document.getElementById("box"+i).onclick = function(){
     {
       // wrong
       hide("correct");
-      hide("tryagain");
+      show("tryagain");
       setTimeout(function(){
         hide("tryagain");
       },1000);
