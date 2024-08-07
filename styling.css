@@ -15,7 +15,7 @@ body
     /* box shadow property is used to add shadow , first property is vertical offset hori. offset 
     dispersion and then blur radius of the shadow */
     position: relative;
-    display:none;
+    
 
 }
 #score{
