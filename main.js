@@ -5,7 +5,7 @@ var timeremaining;
 var correctAnswer;
 
 // to hide the game over box after clicking to other place 
-document.getElementByI("container").onclick = function(){
+document.getElementById("container").onclick = function(){
     hide("gameover");
 }
 // if we click on the start/stop
