@@ -42,7 +42,7 @@ body
     color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
-    visibility: none;
+    display: none;
    
     
 }
