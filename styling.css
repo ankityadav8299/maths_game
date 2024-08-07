@@ -1,0 +1,207 @@
+body
+{
+    height:100%;
+    background: radial-gradie(circle,#fff,#ccc);
+}
+
+#container{
+    height : 550px;
+    width : 600px;
+    background-color: aqua;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 80px 1px rgb(42, 41, 41);
+    /* box shadow property is used to add shadow , first property is vertical offset hori. offset 
+    dispersion and then blur radius of the shadow */
+    position: relative;
+
+}
+#score{
+    background-color: rgb(225, 218, 2);
+    color: rgb(43, 0, 255);
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    position: absolute;
+    right : 60px;
+    margin-top: 10px;
+     /*to move the elements   */
+
+}
+
+#tryagain{
+    background-color: red;
+    position:absolute;
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 260px;
+    right: 30px;
+    margin-top: 23px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+   
+    
+}
+#correct{
+    background-color: rgb(35, 255, 6);
+    position:absolute;
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 260px;
+    right: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    display: none;  
+}
+#question{
+    background-color: blue;
+    margin-left: 50px;
+    line-height: 1.5;
+    margin-right: 50px;
+    position: absolute;
+    padding: 10px;
+    margin: 100px 50px;
+    height: 150px;
+    width: 500px;
+    right:8px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    font-size: 100px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+}
+#instruction{
+    background-color: rgb(212, 255, 0);
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    padding: 10px;
+    margin: 300px 50px;
+    height: 30px;
+    width: 500px;
+    right:8px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    font-size: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+    line-height: 1.5;
+}
+   #option{
+    background-color: rgb(16, 167, 255);
+    margin-left: 10px;
+    margin-right: 1px;
+    position: absolute;
+    padding: 10px;
+    margin: 370px 50px;
+    height: 70px;
+    width: 500px;
+    right:8px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    font-size: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+    line-height: 1.5;
+}
+
+.box{
+    background-color: azure;
+    margin: 10px 30px;
+    height: 50px;
+    width: 60px;
+    left: 0px;
+    float: left;
+    margin-right: 35px;
+    text-align: center;
+    box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    line-height: 2.4;
+    border-radius: 7px;
+    cursor: pointer;
+    position:relative;
+    transition: all 0.2s;
+    /* position:absolute; */
+}
+
+.box:hover{
+    background-color: aqua;
+    color: beige;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+#startgame:hover{
+    background-color: rgb(221, 255, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.box:active,#startgame:active{
+box-shadow:0px 0px #000000;
+top:4px;
+}
+#startgame{
+    
+        background-color: rgb(255, 255, 255);
+        margin: 500px 2px;
+        height: 30px;
+        padding: 1px;
+        width: 90px;
+        left: 260px;
+        float: left;
+        margin-right: 35px;
+        text-align: center;
+        box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+        line-height: 2.0;
+        border-radius: 7px;
+        cursor: pointer;
+        position:relative;
+        transition: all 0.2s;
+        /* position:absolute; */
+    }
+
+    #timeremain{
+        width:180px;
+        text-align: center;
+        padding: 4px;
+        height: 30px;
+        margin-top: 520px;
+        border-radius: 7px;
+        margin-left: 420px;
+        line-height: 1.9;
+        /* margin: 10px 100px; */
+        position: absolute;
+        color: #f0f8ff;
+        background-color: rgb(255, 0, 0);
+        display: none;
+        box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+    }
+    #gameover{
+        width:480px;
+        text-align: center;
+        font-size: 40px;
+        padding: 4px;
+        height: 300px;
+        background: linear-gradient(rgb(238, 67, 67),rgb(193, 126, 4)
+        );
+        margin-top: 100px;
+        border-radius: 7px;
+        margin-left: 53px;
+        line-height: 1.9;
+        /* margin: 10px 100px; */
+        position: absolute;
+        color: #f0f8ff;
+        background-color: rgb(9, 51, 64);
+        display: none;
+        box-shadow: 2px 2px 11px 1px rgb(42, 41, 41);
+        z-index: 2;
+    }
+
+
+
