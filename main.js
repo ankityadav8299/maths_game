@@ -21,7 +21,7 @@ document.getElementById("startgame").onclick = function(){
         document.getElementById("scorevalue").innerHTML = score;
           //show countdown box
           document.getElementById("timeremain").style.display ="block";
-          timeremaining = 5;
+          timeremaining = 4;
           // hide game over box
           hide("gameover")
           document.getElementById("timeremainingvalue").innerHTML = timeremaining;
